@@ -1,12 +1,10 @@
 import { Button } from '@/components/ui/button'
+import { UserButton } from '@clerk/nextjs'
 
 export default function DashboardPage() {
   return (
     <>
-      <p>(protected)</p>
-      <Button variant="destructive" size="lg" className="m-5">
-        Click me
-      </Button>
+      <p>Dashboard Page (protected)</p>
     </>
   )
 }
